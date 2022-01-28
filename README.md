@@ -19,7 +19,7 @@
 
 <P>Below is the link to the landing page</P>
 
-[Insurance website landing landing page](https://github.com/FeverCode/fancy-burgers-landing-page)
+[Insurance website landing landing page](https://github.com/FeverCode/landing-page-insurance-website)
 
 ## Installation
 
