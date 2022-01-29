@@ -14,8 +14,9 @@
     --ff-primary: 'Montserrat', sans-serif;
 }
 
+html,
 body {
-    background-color: var(#252B42);
+    background-color: rgb(232, 232, 232);
     font-family: var(--ff-primary);
 
 }
@@ -114,7 +115,7 @@ p {
     /*position: relative;*/
     margin-top: 300px;
     margin-bottom: 30px;
-    background-color: var(--ff-primary);
+   /* background-color:rgb(232, 232, 232);*/
 
 }
 
@@ -139,7 +140,7 @@ p {
 }
 
 .user1>p {
-    color:var(--clr-grey);
+    color: var(--clr-grey);
 }
 
 .user2>p {
@@ -151,14 +152,24 @@ p {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
-    padding: 50px;
-    margin-left: 250px;
+    padding: 100px 100px 100px 100px;
+    margin-top: 100px;
+    align-items: center;
 
+
+
+}
+
+.wallet,
+.bookmark,
+.user4 {
+    align-content: center;
 
 }
 
 .wallet>p {
     color: var(--clr-grey);
+
 }
 
 .bookmark>p {
@@ -176,7 +187,7 @@ p {
 
 
 .industry>p {
-    color:var(--clr-grey);
+    color: var(--clr-grey);
 }
 
 .testimony {
@@ -185,8 +196,8 @@ p {
     grid-column-gap: 10px;
     padding: 50px;
     margin-left: 250px;
-    gap: 5px;
-    
+
+
 
 }
 
@@ -201,7 +212,7 @@ p {
 
 .person1>p {
     color: var(--clr-grey);
-    text-align: center;   
+    text-align: center;
 }
 
 .span {
@@ -209,12 +220,12 @@ p {
 }
 
 .person2 {
-     border: 0.5px solid black;
-     width: 400px;
-     height: 500px;
-     align-items: center;
-     padding: 20px 50px 20px 50px;
-     margin-right: 30px;
+    border: 0.5px solid black;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    margin-right: 30px;
 
 }
 
@@ -236,4 +247,162 @@ p {
 .person3>p {
     color: var(--clr-grey);
     text-align: center;
+}
+
+.industry>h2 {
+    color: var(--clr-grey);
+}
+
+
+.brands>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    height: 10%;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.section5 {
+    border: 0.5px solid black;
+    width: 1500px;
+    margin-left: 300px;
+    background: linear-gradient(to right, blue, rgb(143, 29, 134));
+    margin-top: 100px;
+    padding: 15px 15px 15px 15px;
+
+
+}
+
+.newsletter {
+    margin-left: 20%;
+    margin-top: 5px;
+    font-size: 2em;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+
+.sub-btn {
+    margin-left: 60%;
+    border: 0.5px solid black;
+    width: 260px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    background: white;
+
+}
+
+.sub-btn>button {
+    border-radius: 24px
+}
+
+.pricing {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.pricing>h2, p {
+    color: black;
+}
+
+.plans {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+
+.free>h2 {
+    color: black;
+
+}
+
+.free {
+    border: 0.5px solid var(--clr-ocean-blue);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    margin-right: 30px;
+}
+
+.standard>h2 {
+    color: black;
+
+}
+
+.standard {
+    border: 0.5px solid var(--clr-ocean-blue);
+    width: 401px;
+    height: 500px;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    background: var(--clr-grey);
+    
+}
+
+.premium>h2 {
+    color: black;
+}
+
+.premium {
+    border: 0.5px solid var(--clr-ocean-blue);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    margin-right: 30px;
+}
+
+.branches {
+    background: var(--clr-grey);
+    height: 800px;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.world>h2{
+    padding-top: 200px;
+    margin-left: 150px;
+}
+
+.world>p {
+    color: white;
+    margin-left: 150px;
+}
+
+.map {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.family {
+   border: hidden;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   transform: scale(0.5);
+   margin-top: -600px;
+   margin-bottom: 100px;
+    
+}
+
+.form {
+    border: 0.5px solid black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    margin-top: -900px;
+    height: 20px;
+    background: rgb(232, 232, 232);
 }
