@@ -431,6 +431,12 @@ p {
     padding-top: 50px;
 
 }
+
+.footer{
+display: flex;
+flex-direction: row;    
+    
+}
   
 
 
