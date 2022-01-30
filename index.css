@@ -383,6 +383,7 @@ h2 {
     right: 150px;
 }
 
+
 .family {
    border: hidden;
    display: block;
@@ -392,16 +393,17 @@ h2 {
    transform: scale(0.5);
    margin-top: -600px;
    margin-bottom: 100px;
+   height: 60%;
     
 }
 
+
 .form {
-    border: 0.5px solid var(--clr-grey);
     position: absolute;
     display: flex;
     flex-direction: column;
     margin-left: 1000px;
-    margin-top: -700px;
+    margin-top: -1000px;
     height: 20px;
     background: rgb(232, 232, 232);
     width: 30%;
