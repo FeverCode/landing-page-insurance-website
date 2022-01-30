@@ -266,32 +266,26 @@ p {
 
 .section5 {
     border: 0.5px solid black;
-    width: 1500px;
-    margin-left: 300px;
+    width: 80%;
+    margin: auto;
     background: linear-gradient(to right, blue, rgb(143, 29, 134));
-    margin-top: 100px;
-    padding: 15px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    
 
 
 }
 
-.newsletter {
-    margin-left: 20%;
-    margin-top: 5px;
-    font-size: 2em;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+.newsletter{
+   width: 30%;
+   margin: auto;
 
 }
 
 .sub-btn {
-    margin-left: 60%;
-    border: 0.5px solid black;
-    width: 260px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 5px;
-    background: white;
+    width: 50%;
 
 }
 
