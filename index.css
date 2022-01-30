@@ -456,7 +456,19 @@ margin-top: -30px;
     padding-top: 20px;
     margin-left: 100px;
 }
-  
+
+
+
+/*for mobile phones*/
+
+@media only screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+    }
+    
+
+}
+
 
 
 
