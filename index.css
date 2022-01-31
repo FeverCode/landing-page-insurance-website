@@ -399,7 +399,7 @@ h2 {
 }
 
 
-.form {
+.aptfrm>.form {
     position: absolute;
     display: flex;
     flex-direction: column;
