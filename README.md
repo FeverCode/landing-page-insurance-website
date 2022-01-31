@@ -17,9 +17,11 @@
 ## Description
 <p>This a project for an insurance website landing page to fulfill the week 2 independent project for Moringa School pre-prep program</p>
 
-<P>Below is the link to the landing page</P>
+<P>Below is the link to the landing page and screenshot preview</P>
 
 [Insurance website landing landing page](https://fevercode.github.io/landing-page-insurance-website/)
+
+![README-example](https://github.com/FeverCode/landing-page-insurance-website/blob/main/Desktop.png)
 
 ## Installation
 
