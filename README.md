@@ -19,7 +19,7 @@
 
 <P>Below is the link to the landing page and screenshot preview</P>
 
-[Insurance website landing landing page](https://fevercode.github.io/landing-page-insurance-website/)
+[Insurance website landing page](https://fevercode.github.io/landing-page-insurance-website/)
 
 ![README-example](https://github.com/FeverCode/landing-page-insurance-website/blob/main/Desktop.png)
 
