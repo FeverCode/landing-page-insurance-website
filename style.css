@@ -1,0 +1,303 @@
+/*for mobile phones*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        object-fit: cover;
+        width: 100%;
+
+    }
+
+    nav>ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navigation>.logo>h1 {
+        color: var(--clr-grey);
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+
+    .button1 {
+        display: none;
+
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+
+    }
+
+    h2 {
+        font-size: 2em;
+        color: white;
+        width: 100%;
+        height: auto;
+    }
+
+    .section1>p {
+        color: white;
+        font-size: 1.6em;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .quote {
+        color: white;
+        float: center;
+        width: 90%;
+        padding: auto;
+        margin-top: 30px;
+    }
+
+    .more {
+        color: white;
+        float: center;
+        width: 90%;
+        padding: auto;
+        margin-top: 30px;
+
+    }
+
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .user1,
+    .user2,
+    .user3 {
+        float: center;
+        width: 50vw;
+        height: 60vw;
+    }
+
+    .user1 {
+        margin-top: -100px;
+    }
+
+    .user2,
+    .user3 {
+        margin-top: 100px;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .wallet {
+        margin-top: -30px;
+    }
+
+    .bookmark {
+        margin-top: 30px;
+    }
+
+    .users4 {
+        margin-top: 30px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .section4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .industry {
+        margin-top: -150px;
+
+    }
+
+    .testimony {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+
+    }
+
+    .person1,
+    .person2,
+    .person3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .person1>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .person2>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .person3>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .person2,
+    .person3 {
+        margin-top: 20px;
+    }
+
+    .brands>ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .section5 {
+        border: 0.5px solid var(--clr-grey);
+        width: 60vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .newsletter {
+        align-content: center;
+
+
+    }
+
+    .plans {
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+        margin: auto;
+        width: auto;
+    }
+
+    .free,
+    .standard,
+    .premium {
+        height: auto;
+        margin-right: 30%;
+        align-items: center;
+
+
+    }
+
+    .standard,
+    .premium {
+        margin-top: 20px;
+
+    }
+
+    .bcont {
+        width: 100vw;
+        height: auto;
+    }
+
+    .branches {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .world>h2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -0px;
+        margin-top: -150px;
+        padding-left: 50px;
+        font-size: 1.5em;
+
+    }
+
+    .world>p {
+        margin-left: -0px;
+        padding-left: 50px;
+        margin-top: 10px;
+
+    }
+
+
+    .bcont>.branches>.map>img {
+        width: auto;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 20%;
+        overflow: hidden;
+
+
+    }
+
+    .family>img {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        margin-top: 1000px;
+        width: auto;
+        height: auto;
+
+
+    }
+
+    .aptfrm>.form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        float: right;
+        margin-right: 50%;
+
+
+    }
+
+    .agency>h3 {
+     margin-right: 150px;
+     padding-right: -150px;
+     margin: top 200px; ;
+
+    }
+
+    
+.about {
+    padding-left: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+}
+.footer>.fcont>ul {
+    margin-top: 20px;
+}
+
+
+}

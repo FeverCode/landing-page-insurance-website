@@ -28,7 +28,7 @@ body {
     height: 1050px;
     width: 100%;
     padding: 15px;
-    background-position: left top;
+    background-position: top;
     background-color: var(--clr-grey);
     background-size: contain;
     background-repeat: no-repeat;
@@ -455,18 +455,6 @@ margin-top: -30px;
 .fcont {
     padding-top: 20px;
     margin-left: 100px;
-}
-
-
-
-/*for mobile phones*/
-
-@media only screen and (max-width: 768px) {
-    .header{
-        width: 100%;
-    }
-    
-
 }
 
 
